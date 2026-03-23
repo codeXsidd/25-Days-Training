@@ -29,12 +29,10 @@ Here is a comprehensive breakdown of my daily problem-solving progress. Each fol
 | **Day 1** | 📁 [`16-march`](16-march/) | 1 Problem | ✅ |
 | **Day 2** | 📁 [`17-march`](17-march/) | 4 Problems | ✅ |
 | **Day 3** | 📁 [`18-march`](18-march/) | 5 Problems | ✅ |
-| **Day 4** | 📁 [`19-march`](holiday%20task/19-march/) | 2 Problems | ✅ |
-| **Day 5** | 📁 [`20-march`](holiday%20task/20-march/) | 3 Problems | ✅ |
-| **Day 6** | 📁 [`21-march`](holiday%20task/21-march/) | 3 Problems | ✅ |
-| **Day 7** | 📁 [`22-march`](holiday%20task/22-march/) | 2 Problems | ✅ |
+| **Holiday Task** | 📁 [`holiday task`](holiday%20task/) | 10 Problems | ✅ |
+| **Day 4** | 📁 [`23-march`](23-march/) | 4 Problems | ✅ |
 
-> **Total Problems Solved:** 20 ✨
+> **Total Problems Solved:** 24 ✨
 
 ---
 

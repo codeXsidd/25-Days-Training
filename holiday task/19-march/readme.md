@@ -8,8 +8,8 @@
 
 | No | Problem Name | Difficulty |
 | :--- | :--- | :--- |
-| 1 | Reverse Bits | Easy |
-| 2 | Number Complement | Easy |
+| 1 | [Reverse Bits](190_Reverse_Bits.java) | Easy |
+| 2 | [Number Complement](476_Number_Complement.java) | Easy |
 
 ---
 

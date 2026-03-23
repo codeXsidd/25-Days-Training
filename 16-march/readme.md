@@ -8,7 +8,7 @@
 
 | No | Problem Name | Difficulty |
 | :--- | :--- | :--- |
-| 1 | Richest Customer Wealth | Easy |
+| 1 | [Richest Customer Wealth](1672_Richest_Customer_Wealth.java) | Easy |
 
 ---
 

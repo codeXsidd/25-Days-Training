@@ -8,9 +8,9 @@
 
 | No | Problem Name | Difficulty |
 | :--- | :--- | :--- |
-| 1 | Reverse Integer | Medium |
-| 2 | Palindrome Number | Easy |
-| 3 | Power of Three | Easy |
+| 1 | [Reverse Integer](7_Reverse_Integer.java) | Medium |
+| 2 | [Palindrome Number](9_Palindrome_Number.java) | Easy |
+| 3 | [Power of Three](326_Power_of_Three.java) | Easy |
 
 ---
 
