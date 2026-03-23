@@ -1,5 +1,4 @@
-// Using the nested loop
-
+// Using the Nested Loop
 public class Main {
     public static void main(String[] args) {
         int n = 4;
@@ -19,8 +18,7 @@ public class Main {
 
 //-----------------------------------------------------------------------------------//
 
-// Using the Single loop
-
+// Using the Single Loop
 public class Main {
     public static void main(String[] args) {
         int n = 4;
