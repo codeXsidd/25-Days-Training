@@ -32,7 +32,7 @@
 
 | Topic | File | Description |
 | :--- | :--- | :--- |
-| String Methods API | [String_Methods.txt](String_Methods.txt) | Comprehensive list of Java String instance methods and static functions. |
+| String Methods API | [String_Methods.txt](Tasks/String_Methods.txt) | Comprehensive list of Java String instance methods and static functions. |
 
 ---
 
