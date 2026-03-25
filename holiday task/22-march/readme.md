@@ -8,7 +8,7 @@
 
 | No | Problem Name | Difficulty |
 | :--- | :--- | :--- |
-| 1 | [Integer Replacement](397_Integer%20Replacement.java) | Medium |
+| 1 | [Integer Replacement](397_Integer_Replacement.java) | Medium |
 | 2 | [Three Divisors](1952_Three_Divisors.java) | Easy |
 
 ---
