@@ -8,7 +8,8 @@
 
 | No | Problem Name | Difficulty |
 | :--- | :--- | :--- |
-| 1 | [Richest Customer Wealth](1672_Richest_Customer_Wealth.java) | Easy |
+| 1 | [Richest Customer Wealth](1672_Richest_Customer_Wealth.java) | Unknown |
+| 2 | [Nim Game](Task/292_Nim_Game.java) | Unknown |
 
 ---
 

@@ -8,9 +8,9 @@
 
 | No | Problem Name | Difficulty |
 | :--- | :--- | :--- |
-| 1 | [Water Bottles](1518_Water_Bottles.java) | Easy |
-| 2 | [Sum Multiples](2652_Sum_Multiples.java) | Easy |
-| 3 | [Total Distance Traveled](2739_Total_Distance_Traveled.java) | Easy |
+| 1 | [Water Bottles](1518_Water_Bottles.java) | Unknown |
+| 2 | [Sum Multiples](2652_Sum_Multiples.java) | Unknown |
+| 3 | [Total Distance Traveled](2739_Total_Distance_Traveled.java) | Unknown |
 
 ---
 

@@ -26,13 +26,14 @@ Here is a comprehensive breakdown of my daily problem-solving progress. Each fol
 
 | Day | Folder / Log | Problems Solved | Status |
 | :---: | :--- | :---: | :---: |
-| **Day 1** | 📁 [`16-march`](16-march/) | 1 Problem | ✅ |
-| **Day 2** | 📁 [`17-march`](17-march/) | 4 Problems | ✅ |
+| **Day 1** | 📁 [`16-march`](16-march/) | 2 Problems | ✅ |
+| **Day 2** | 📁 [`17-march`](17-march/) | 7 Problems | ✅ |
 | **Day 3** | 📁 [`18-march`](18-march/) | 5 Problems | ✅ |
 | **Holiday Task** | 📁 [`holiday task`](holiday%20task/) | 10 Problems | ✅ |
 | **Day 4** | 📁 [`23-march`](23-march/) | 7 Problems | ✅ |
+| **Day 5** | 📁 [`24-march`](24-march/) | 12 Problems | ✅ |
 
-> **Total Problems Solved:** 27 ✨
+> **Total Problems Solved:** 43 ✨
 
 ---
 
