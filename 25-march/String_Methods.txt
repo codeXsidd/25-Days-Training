@@ -107,28 +107,42 @@ Note: These are called on a specific string object (e.g., s.length())
    Eg:String s = "  hi  ";
       System.out.println(s.trim()); // hi
 
-15.startsWith():-
+15.strip():- (Java 11+)
+   Definition:
+     Returns a string whose value is this string, with all leading and trailing white space removed.
+   Syntax:String strip()
+   Eg:String s = "  hello  ";
+      System.out.println(s.strip()); // hello
+
+16.startsWith():-
    Definition:
     Checks if the string starts with a given prefix.
   Syntax:boolean startsWith(String s)
   Eg:String s = "hello";
      System.out.println(s.startsWith("he")); // true
 
-16.endsWith():-
+17.endsWith():-
    Definition:
     Checks if the string ends with a given suffix.
    Syntax:boolean endsWith(String s)
    Eg:String s = "hello";
       System.out.println(s.endsWith("lo")); // true
 
-17.isEmpty():-
+18.isEmpty():-
    Definition:
      Checks whether the string is empty.
    Syntax:boolean isEmpty()
    Eg:String s = "";
       System.out.println(s.isEmpty()); // true
 
-18.concat():-
+19.isBlank():- (Java 11+)
+   Definition:
+     Returns true if the string is empty or contains only white space codepoints.
+   Syntax:boolean isBlank()
+   Eg:String s = "   ";
+      System.out.println(s.isBlank()); // true
+
+20.concat():-
    Definition:
      Joins two strings and returns a new string.
    Syntax:String concat(String s)
@@ -136,7 +150,7 @@ Note: These are called on a specific string object (e.g., s.length())
       String b = "World";
       System.out.println(a.concat(b)); // HelloWorld
 
-19.split():-
+21.split():-
    Definition:
      Splits the string into an array of strings based on the given regular expression.
    Syntax:String[] split(String regex)
@@ -144,7 +158,7 @@ Note: These are called on a specific string object (e.g., s.length())
       String[] arr = s.split(",");
       System.out.println(arr[0]); // apple
 
-20.toCharArray():-
+22.toCharArray():-
    Definition:
      Converts the string into a new character array.
    Syntax:char[] toCharArray()
@@ -165,7 +179,14 @@ Note: These are called directly on the String class (e.g., String.valueOf())
       String s = String.valueOf(num);
       System.out.println(s + 5); // 105
 
-2.format():-
+2.join():- (Java 8+)
+   Definition:
+     Returns a new String composed of copies of the elements joined together with a copy of the specified delimiter.
+   Syntax:static String join(CharSequence delimiter, CharSequence... elements)
+   Eg:String s = String.join("-", "2024", "03", "25");
+      System.out.println(s); // 2024-03-25
+
+3.format():-
    Definition:
      Returns a formatted string using the specified format string and arguments.
    Syntax:static String format(String format, Object... args)
