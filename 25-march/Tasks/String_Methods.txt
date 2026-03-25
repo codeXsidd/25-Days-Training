@@ -166,29 +166,4 @@ Note: These are called on a specific string object (e.g., s.length())
       char[] arr = s.toCharArray();
       System.out.println(arr[0]); // h
 
-===================================================
-      STRING FUNCTIONS (STATIC METHODS)
-===================================================
-Note: These are called directly on the String class (e.g., String.valueOf())
 
-1.valueOf():-
-   Definition:
-     Returns the string representation of an object, character array, or primitive data type.
-   Syntax:static String valueOf(int i)
-   Eg:int num = 10;
-      String s = String.valueOf(num);
-      System.out.println(s + 5); // 105
-
-2.join():- (Java 8+)
-   Definition:
-     Returns a new String composed of copies of the elements joined together with a copy of the specified delimiter.
-   Syntax:static String join(CharSequence delimiter, CharSequence... elements)
-   Eg:String s = String.join("-", "2024", "03", "25");
-      System.out.println(s); // 2024-03-25
-
-3.format():-
-   Definition:
-     Returns a formatted string using the specified format string and arguments.
-   Syntax:static String format(String format, Object... args)
-   Eg:String s = String.format("Hello %s", "World");
-      System.out.println(s); // Hello World
