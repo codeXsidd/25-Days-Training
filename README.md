@@ -3,9 +3,26 @@
   <p><i>A daily journey solving Data Structures & Algorithms problems to improve coding skills.</i></p>
   
   <p>
-    <img src="https://img.shields.io/badge/Language-Java-orange.svg" alt="Language" />
-    <img src="https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue.svg" alt="Focus" />
-    <img src="https://img.shields.io/badge/Status-In%20Progress-brightgreen.svg" alt="Status" />
+    <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" alt="Language" />
+    <img src="https://img.shields.io/badge/Problems%20Solved-49-blue?style=for-the-badge&logo=leetcode" alt="Problems Solved" />
+    <img src="https://img.shields.io/badge/Day-06%2F25-brightgreen?style=for-the-badge&logo=calendar" alt="Day Progress" />
+    <img src="https://img.shields.io/github/last-commit/codeXsidd/HOPE_Training_1?style=for-the-badge&logo=github" alt="Last Updated" />
+  </p>
+
+  <br />
+
+  <!-- Progress Bar -->
+  <div>
+    <strong>Training Progress (Day 6/25)</strong><br />
+    <img src="https://geps.dev/progress/24" alt="Progress Bar" />
+  </div>
+
+  <br />
+
+  <!-- GitHub Stats -->
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=codeXsidd&show_icons=true&theme=vibrant&count_private=true&hide_border=true" alt="codeXsidd's GitHub Stats" height="150" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeXsidd&layout=compact&theme=vibrant&hide_border=true" alt="Top Languages" height="150" />
   </p>
 </div>
 
@@ -13,7 +30,7 @@
 
 ## 🎯 About The Repository
 
-This repository tracks my **25-Days Training** challenge. The primary goal of this repository is to log my consistency in solving algorithmic challenges. Day by day, I am implementing clean, efficient solutions to common problem-solving constraints, focusing heavily on core Data Structures and Algorithms.
+This repository tracks my **25-Days Training** challenge. The primary goal is to log my consistency in solving algorithmic challenges. Day by day, I am implementing clean, efficient solutions to common problem-solving constraints, focusing heavily on core Data Structures and Algorithms.
 
 * **Language:** Java ☕
 * **Focus:** LeetCode-style Problems, Logical Reasoning, Time & Space Complexity Optimization
@@ -29,40 +46,32 @@ Here is a comprehensive breakdown of my daily problem-solving progress. Each fol
 | **Day 1** | 📁 [`16-march`](16-march/) | 2 Problems | ✅ |
 | **Day 2** | 📁 [`17-march`](17-march/) | 7 Problems | ✅ |
 | **Day 3** | 📁 [`18-march`](18-march/) | 5 Problems | ✅ |
-| **Holiday Task** | 📁 [`holiday task`](holiday%20task/) | 10 Problems | ✅ |
+| **Holiday Task** | 📁 [`Holiday-Task`](Holiday-Task/) | 10 Problems | ✅ |
 | **Day 4** | 📁 [`23-march`](23-march/) | 7 Problems | ✅ |
 | **Day 5** | 📁 [`24-march`](24-march/) | 12 Problems | ✅ |
+| **Day 6** | 📁 [`25-march`](25-march/) | 6 Problems | ✅ |
 
-> **Total Problems Solved:** 43 ✨
+> **Total Problems Solved:** 49 ✨
 
 ---
 
 ## ✨ Features & Standards
 
-* ✅ **Clean & Readable Code**: Strong emphasis on writing maintainable Java code following standard naming conventions.
+* ✅ **Clean & Readable Code**: Standard naming conventions and modular design.
 * ✅ **Optimized Solutions**: Focus on reducing Time and Space complexities.
-* ✅ **Well-Documented**: Each folder contains a structured list describing problem names and their difficulty levels.
+* ✅ **Modern Documentation**: Structured and visual roadmaps for each day.
 
 ---
 
-## 🚀 How to Run locally
+## 🚀 Quick Start
 
 To clone this repository and explore my solutions:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/codeXsidd/HOPE_Training_1.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd HOPE_Training_1
-   ```
-3. Compile and run any specific Java file:
-   ```bash
-   javac 16-march/1672_Richest_Customer_Wealth.java
-   java 16-march/1672_Richest_Customer_Wealth
-   ```
+```bash
+git clone https://github.com/codeXsidd/HOPE_Training_1.git
+cd HOPE_Training_1
+```
 
 ---
 
-<p align="center">Made with ❤️ for continuous learning.</p>
+<p align="center">Made with ❤️ by <a href="https://github.com/codeXsidd">codeXsidd</a></p>

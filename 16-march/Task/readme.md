@@ -1,18 +1,18 @@
-# 📅 Task
+# 📝 Extra Task: 16 March
 
-* 🎯 Focus: Data Structures & Algorithms
+* 🎯 **Focus:** Quick algorithmic challenge.
+* 🚀 **Status:** Completed
 
 ---
 
-## 🧠 Problems List
+## 🧠 Problem Solved
 
-| No | Problem Name | Difficulty |
-| :--- | :--- | :--- |
-| 1 | [Nim Game](292_Nim_Game.java) | Unknown |
+| No | Problem Name | File | Difficulty |
+| :--- | :--- | :--- | :--- |
+| 1 | Nim Game | [292_Nim_Game.java](292_Nim_Game.java) | Easy |
 
 ---
 
 ## ✨ Features
-
-* ✅ Clean and readable code
-* ✅ Well-documented logic
+* ✅ **Clean Implementation**: Simple and efficient logic.
+* ✅ **Optimized**: Followed the direct mathematical solution.

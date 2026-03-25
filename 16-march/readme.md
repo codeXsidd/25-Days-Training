@@ -1,19 +1,20 @@
-# 📅 16 March
+# 📅 16 March: Introduction to DSA
 
-* 🎯 Focus: Data Structures & Algorithms
-
----
-
-## 🧠 Problems List
-
-| No | Problem Name | Difficulty |
-| :--- | :--- | :--- |
-| 1 | [Richest Customer Wealth](1672_Richest_Customer_Wealth.java) | Unknown |
-| 2 | [Nim Game](Task/292_Nim_Game.java) | Unknown |
+* 🎯 **Focus:** Getting started with array challenges and game logic.
+* 🚀 **Status:** Completed
 
 ---
 
-## ✨ Features
+## 🧠 Problems Solved
 
-* ✅ Clean and readable code
-* ✅ Well-documented logic
+| No | Problem Name | File | Difficulty |
+| :--- | :--- | :--- | :--- |
+| 1 | Richest Customer Wealth | [1672_Wealth.java](1672_Richest_Customer_Wealth.java) | Easy |
+| 2 | Nim Game | [Task/292_Nim_Game.java](Task/292_Nim_Game.java) | Easy |
+
+---
+
+## ✨ Implementation Highlights
+* ✅ **Foundation Building**: Established coding standards for the 25-days challenge.
+* ✅ **Simple Iteration**: Focused on basic loop structures and condition checks.
+* ✅ **Clean Code**: Emphasized descriptive variable naming and modular logic.

@@ -1,19 +1,19 @@
-# 📅 22 March
+# 📅 22 March: Divisors & Replacements
 
-* 🎯 Focus: Data Structures & Algorithms
-
----
-
-## 🧠 Problems List
-
-| No | Problem Name | Difficulty |
-| :--- | :--- | :--- |
-| 1 | [Three Divisors](1952_Three_Divisors.java) | Unknown |
-| 2 | [Integer Replacement](397_Integer_Replacement.java) | Unknown |
+* 🎯 **Focus:** Logic building with mathematical rules.
+* 🚀 **Status:** Completed
 
 ---
 
-## ✨ Features
+## 🧠 Problems Solved
 
-* ✅ Clean and readable code
-* ✅ Well-documented logic
+| No | Problem Name | File | Difficulty |
+| :--- | :--- | :--- | :--- |
+| 1 | Three Divisors | [1952_Three_Divisors.java](1952_Three_Divisors.java) | Easy |
+| 2 | Integer Replacement | [397_Replacement.java](397_Integer_Replacement.java) | Medium |
+
+---
+
+## ✨ Implementation Highlights
+* ✅ **Efficient Search**: Implemented sqrt-based checks for divisors.
+* ✅ **Recursive Optimization**: Solved integer replacement with memoization-like logic.
