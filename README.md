@@ -1,11 +1,11 @@
 <div align="center">
-  <h1>🚀 25 Days DSA Training</h1>
+  <h1>🚀 23 Days DSA Training</h1>
   <p><i>A daily journey solving Data Structures & Algorithms problems to improve coding skills.</i></p>
   
   <p>
     <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" alt="Language" />
     <img src="https://img.shields.io/badge/Problems%20Solved-49-blue?style=for-the-badge&logo=leetcode" alt="Problems Solved" />
-    <img src="https://img.shields.io/badge/Day-06%2F25-brightgreen?style=for-the-badge&logo=calendar" alt="Day Progress" />
+    <img src="https://img.shields.io/badge/Day-06%2F23-brightgreen?style=for-the-badge&logo=calendar" alt="Day Progress" />
     <img src="https://img.shields.io/github/last-commit/codeXsidd/HOPE_Training_1?style=for-the-badge&logo=github" alt="Last Updated" />
   </p>
 
@@ -13,8 +13,8 @@
 
   <!-- Progress Bar -->
   <div>
-    <strong>Training Progress (Day 6/25)</strong><br />
-    <img src="https://geps.dev/progress/24" alt="Progress Bar" />
+    <strong>Training Progress (Day 6/23)</strong><br />
+    <img src="https://geps.dev/progress/26" alt="Progress Bar" />
   </div>
 
   <br />
@@ -25,7 +25,7 @@
 
 ## 🎯 About The Repository
 
-This repository tracks my **25-Days Training** challenge. The primary goal is to log my consistency in solving algorithmic challenges. Day by day, I am implementing clean, efficient solutions to common problem-solving constraints, focusing heavily on core Data Structures and Algorithms.
+This repository tracks my **23-Days Training** challenge. The primary goal is to log my consistency in solving algorithmic challenges. Day by day, I am implementing clean, efficient solutions to common problem-solving constraints, focusing heavily on core Data Structures and Algorithms.
 
 * **Language:** Java ☕
 * **Focus:** LeetCode-style Problems, Logical Reasoning, Time & Space Complexity Optimization
@@ -46,7 +46,7 @@ Here is a comprehensive breakdown of my daily problem-solving progress. Each fol
 | **Day 5** | 📁 [`24-march`](24-march/) | 12 Problems | ✅ |
 | **Day 6** | 📁 [`25-march`](25-march/) | 6 Problems | ✅ |
 
-> **Total Problems Solved:** 49 ✨
+> **Total Problems Solved: 49 ✨**
 
 ---
 
@@ -58,14 +58,18 @@ Here is a comprehensive breakdown of my daily problem-solving progress. Each fol
 
 ---
 
-## 🚀 Quick Start
+## 🚀 How to Run locally
 
 To clone this repository and explore my solutions:
 
-```bash
-git clone https://github.com/codeXsidd/HOPE_Training_1.git
-cd HOPE_Training_1
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/codeXsidd/HOPE_Training_1.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd HOPE_Training_1
+   ```
 
 ---
 
