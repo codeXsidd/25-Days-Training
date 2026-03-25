@@ -122,3 +122,98 @@
    Eg:String a = "Hello";
       String b = "World";
       System.out.println(a.concat(b)); // HelloWorld
+
+18.split():-
+   Definition:
+     Splits the string into an array of strings based on the given regular expression.
+   Syntax:String[] split(String regex)
+   Eg:String s = "apple,banana,cherry";
+      String[] arr = s.split(",");
+      System.out.println(arr[0]); // apple
+
+19.toCharArray():-
+   Definition:
+     Converts the string into a new character array.
+   Syntax:char[] toCharArray()
+   Eg:String s = "hello";
+      char[] arr = s.toCharArray();
+      System.out.println(arr[0]); // h
+
+20.valueOf():-
+   Definition:
+     Returns the string representation of an object, character array, or primitive data type.
+   Syntax:static String valueOf(int i)
+   Eg:int num = 10;
+      String s = String.valueOf(num);
+      System.out.println(s + 5); // 105
+
+21.compareToIgnoreCase():-
+   Definition:
+     Compares two strings lexicographically, ignoring case differences.
+   Syntax:int compareToIgnoreCase(String str)
+   Eg:String a = "Hello";
+      String b = "hello";
+      System.out.println(a.compareToIgnoreCase(b)); // 0
+
+22.matches():-
+   Definition:
+     Tells whether or not this string matches the given regular expression.
+   Syntax:boolean matches(String regex)
+   Eg:String s = "12345";
+      System.out.println(s.matches("\\d+")); // true
+
+23.replaceAll():-
+   Definition:
+     Replaces each substring that matches the given regular expression with the replacement.
+   Syntax:String replaceAll(String regex, String replacement)
+   Eg:String s = "cat bat rat";
+      System.out.println(s.replaceAll(".at", "dog")); // dog dog dog
+
+24.replaceFirst():-
+   Definition:
+     Replaces the first substring that matches the given regular expression with the replacement.
+   Syntax:String replaceFirst(String regex, String replacement)
+   Eg:String s = "cat bat rat";
+      System.out.println(s.replaceFirst(".at", "dog")); // dog bat rat
+
+25.isBlank():- (Java 11+)
+   Definition:
+     Returns true if the string is empty or contains only white space codepoints.
+   Syntax:boolean isBlank()
+   Eg:String s = "   ";
+      System.out.println(s.isBlank()); // true
+
+26.strip():- (Java 11+)
+   Definition:
+     Returns a string whose value is this string, with all leading and trailing white space removed.
+   Syntax:String strip()
+   Eg:String s = "  hello  ";
+      System.out.println(s.strip()); // hello
+
+27.repeat():- (Java 11+)
+   Definition:
+     Returns a string whose value is the concatenation of this string repeated count times.
+   Syntax:String repeat(int count)
+   Eg:String s = "ha";
+      System.out.println(s.repeat(3)); // hahaha
+
+28.join():- (Java 8+)
+   Definition:
+     Returns a new String composed of copies of the elements joined together with a copy of the specified delimiter.
+   Syntax:static String join(CharSequence delimiter, CharSequence... elements)
+   Eg:String s = String.join("-", "2024", "03", "25");
+      System.out.println(s); // 2024-03-25
+
+29.codePointAt():-
+   Definition:
+     Returns the character (Unicode code point) at the specified index.
+   Syntax:int codePointAt(int index)
+   Eg:String s = "a";
+      System.out.println(s.codePointAt(0)); // 97
+
+30.format():-
+   Definition:
+     Returns a formatted string using the specified format string and arguments.
+   Syntax:static String format(String format, Object... args)
+   Eg:String s = String.format("Hello %s", "World");
+      System.out.println(s); // Hello World
