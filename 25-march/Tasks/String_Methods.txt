@@ -1,0 +1,124 @@
+1.charAt():-
+   Definition:
+     Returns the character present at a specified index in the string. Index starts from 0.
+   Syntax:char charAt(int index)
+   Eg:String s = "hello";
+      System.out.println(s.charAt(1));//h
+
+2.length():-
+   Definition:
+     Returns the total number of characters present in the string.
+   Syntax:int length()
+   Eg:String s = "hello";
+      System.out.println(s.length()); // 5
+
+3.toUpperCase():-
+   Definition:
+    Converts all characters of the string into uppercase. 
+   Syntax:String toUpperCase()
+   Eg:String s = "hello";
+      System.out.println(s.toUpperCase()); // HELLO
+
+4.toLowerCase():-
+   Definition:
+    Converts all characters of the string into lowercase.
+   Syntax:String toLowerCase()
+   Eg:String s = "HELLO";
+      System.out.println(s.toLowerCase()); // hello
+
+5.equals():-
+   Definition:
+    Compares two strings and returns true if both are equal (case-sensitive).
+   Syntax:boolean equals(String s)
+   Eg:String a = "hi";
+      String b = "hi";
+      System.out.println(a.equals(b)); // true
+
+6.equalsIgnoreCase():-
+   Definition:
+    Compares two strings ignoring case differences.
+   Syntax:boolean equalsIgnoreCase(String s)
+   Eg:String a = "Hi";
+      String b = "hi";
+      System.out.println(a.equalsIgnoreCase(b)); // true
+
+7.compareTo():-
+   Definition:
+    Compares two strings lexicographically (dictionary order).
+   Syntax:int compareTo(String s)
+   Eg:String a = "apple";
+      String b = "banana";
+      System.out.println(a.compareTo(b)); // negative
+
+8.contains():-
+   Definition:
+    Checks if the string contains a given sequence of characters.
+   Syntax:boolean contains(CharSequence s)
+   Eg:String s = "hello";
+      System.out.println(s.contains("ell")); // true
+
+9.substring():-
+   Definition:
+    Returns a part of the string based on given index values.
+   Syntax:String substring(int beginIndex)
+          String substring(int beginIndex,int endIndex)
+   Eg:String s = "hello";
+      System.out.println(s.substring(1,4)); // ell
+
+10.indexOf():-
+   Definition:
+    Returns the index of the first occurrence of a character or substring.
+   Syntax:int indexOf(char ch)
+          int indexOf(String s)
+   Eg:String s = "hello";
+      System.out.println(s.indexOf('l')); // 2
+
+11.lastIndexOf():-
+   Definition:
+    Returns the index of the last occurrence of a character or substring.
+   Syntax:int lastIndexOf(char ch)
+   Eg:String s = "hello";
+      System.out.println(s.lastIndexOf('l')); // 3
+
+12.replace():-
+   Definition:
+    Replaces characters or substring with another value.
+   Syntax:String replace(char old,char new)
+   Eg:String s = "hello";
+      System.out.println(s.replace('l','x')); // hexxo
+
+13.trim():-
+   Definition:
+    Removes leading and trailing spaces from the string.
+   Syntax:String trim()
+   Eg:String s = "  hi  ";
+      System.out.println(s.trim()); // hi
+
+14.startsWith():-
+   Definition:
+    Checks if the string starts with a given prefix.
+  Syntax:boolean startsWith(String s)
+  Eg:String s = "hello";
+     System.out.println(s.startsWith("he")); // true
+
+15.endsWith():-
+   Definition:
+    Checks if the string ends with a given suffix.
+   Syntax:boolean endsWith(String s)
+   Eg:String s = "hello";
+      System.out.println(s.endsWith("lo")); // true
+
+16.isEmpty():-
+   Definition:
+     Checks whether the string is empty.
+   Syntax:boolean isEmpty()
+   Eg:String s = "";
+      System.out.println(s.isEmpty()); // true
+
+17.concat():-
+   Definition:
+     Joins two strings and returns a new string.
+   Syntax:String concat(String s)
+   Eg:String a = "Hello";
+      String b = "World";
+      System.out.println(a.concat(b)); // HelloWorld
