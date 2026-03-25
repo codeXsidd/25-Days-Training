@@ -100,63 +100,35 @@ Note: These are called on a specific string object (e.g., s.length())
    Eg:String s = "hello";
       System.out.println(s.replace('l','x')); // hexxo
 
-14.replaceAll():-
-   Definition:
-     Replaces each substring that matches the given regular expression with the replacement.
-   Syntax:String replaceAll(String regex, String replacement)
-   Eg:String s = "cat bat rat";
-      System.out.println(s.replaceAll(".at", "dog")); // dog dog dog
-
-15.replaceFirst():-
-   Definition:
-     Replaces the first substring that matches the given regular expression with the replacement.
-   Syntax:String replaceFirst(String regex, String replacement)
-   Eg:String s = "cat bat rat";
-      System.out.println(s.replaceFirst(".at", "dog")); // dog bat rat
-
-16.trim():-
+14.trim():-
    Definition:
     Removes leading and trailing spaces from the string.
    Syntax:String trim()
    Eg:String s = "  hi  ";
       System.out.println(s.trim()); // hi
 
-17.strip():- (Java 11+)
-   Definition:
-     Returns a string whose value is this string, with all leading and trailing white space removed.
-   Syntax:String strip()
-   Eg:String s = "  hello  ";
-      System.out.println(s.strip()); // hello
-
-18.startsWith():-
+15.startsWith():-
    Definition:
     Checks if the string starts with a given prefix.
   Syntax:boolean startsWith(String s)
   Eg:String s = "hello";
      System.out.println(s.startsWith("he")); // true
 
-19.endsWith():-
+16.endsWith():-
    Definition:
     Checks if the string ends with a given suffix.
    Syntax:boolean endsWith(String s)
    Eg:String s = "hello";
       System.out.println(s.endsWith("lo")); // true
 
-20.isEmpty():-
+17.isEmpty():-
    Definition:
      Checks whether the string is empty.
    Syntax:boolean isEmpty()
    Eg:String s = "";
       System.out.println(s.isEmpty()); // true
 
-21.isBlank():- (Java 11+)
-   Definition:
-     Returns true if the string is empty or contains only white space codepoints.
-   Syntax:boolean isBlank()
-   Eg:String s = "   ";
-      System.out.println(s.isBlank()); // true
-
-22.concat():-
+18.concat():-
    Definition:
      Joins two strings and returns a new string.
    Syntax:String concat(String s)
@@ -164,7 +136,7 @@ Note: These are called on a specific string object (e.g., s.length())
       String b = "World";
       System.out.println(a.concat(b)); // HelloWorld
 
-23.split():-
+19.split():-
    Definition:
      Splits the string into an array of strings based on the given regular expression.
    Syntax:String[] split(String regex)
@@ -172,34 +144,13 @@ Note: These are called on a specific string object (e.g., s.length())
       String[] arr = s.split(",");
       System.out.println(arr[0]); // apple
 
-24.toCharArray():-
+20.toCharArray():-
    Definition:
      Converts the string into a new character array.
    Syntax:char[] toCharArray()
    Eg:String s = "hello";
       char[] arr = s.toCharArray();
       System.out.println(arr[0]); // h
-
-25.matches():-
-   Definition:
-     Tells whether or not this string matches the given regular expression.
-   Syntax:boolean matches(String regex)
-   Eg:String s = "12345";
-      System.out.println(s.matches("\\d+")); // true
-
-26.repeat():- (Java 11+)
-   Definition:
-     Returns a string whose value is the concatenation of this string repeated count times.
-   Syntax:String repeat(int count)
-   Eg:String s = "ha";
-      System.out.println(s.repeat(3)); // hahaha
-
-27.codePointAt():-
-   Definition:
-     Returns the character (Unicode code point) at the specified index.
-   Syntax:int codePointAt(int index)
-   Eg:String s = "a";
-      System.out.println(s.codePointAt(0)); // 97
 
 ===================================================
       STRING FUNCTIONS (STATIC METHODS)
@@ -214,14 +165,7 @@ Note: These are called directly on the String class (e.g., String.valueOf())
       String s = String.valueOf(num);
       System.out.println(s + 5); // 105
 
-2.join():- (Java 8+)
-   Definition:
-     Returns a new String composed of copies of the elements joined together with a copy of the specified delimiter.
-   Syntax:static String join(CharSequence delimiter, CharSequence... elements)
-   Eg:String s = String.join("-", "2024", "03", "25");
-      System.out.println(s); // 2024-03-25
-
-3.format():-
+2.format():-
    Definition:
      Returns a formatted string using the specified format string and arguments.
    Syntax:static String format(String format, Object... args)
