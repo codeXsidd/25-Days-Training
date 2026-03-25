@@ -19,12 +19,7 @@
 
   <br />
 
-  <!-- GitHub Stats -->
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=codeXsidd&show_icons=true&theme=vibrant&count_private=true&hide_border=true" alt="codeXsidd's GitHub Stats" height="150" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeXsidd&layout=compact&theme=vibrant&hide_border=true" alt="Top Languages" height="150" />
-  </p>
-</div>
+ 
 
 ---
 
