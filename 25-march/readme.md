@@ -8,16 +8,6 @@
 ## 🧠 Problems Solved
 
 | No | Problem Name | File | Difficulty |
-# 📅 25 March: String Manipulation
-
-* 🎯 **Focus:** Data Structures & Algorithms
-* 🚀 **Status:** Completed
-
----
-
-## 🧠 Problems Solved
-
-| No | Problem Name | File | Difficulty |
 | :--- | :--- | :--- | :--- |
 | 1 | Reverse String | [Reverse_String.java](Reverse_String.java) | Easy |
 | 2 | Check Palindrome | [Palindrome.java](Palindrome.java) | Easy |
@@ -32,7 +22,7 @@
 
 | Topic | File | Description |
 | :--- | :--- | :--- |
-| String Methods API | [String_Methods.txt](Tasks/String_Methods.txt) | Comprehensive list of Java String instance methods and static functions. |
+| String Methods API | [String_Methods.txt](String_Methods.txt) | Comprehensive list of Java String instance methods and static functions. |
 
 ---
 
