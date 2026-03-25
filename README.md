@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>🚀 23 Days DSA Training</h1>
-  <p><i>A daily journey solving Data Structures & Algorithms problems to improve coding skills.</i></p>
+  <h1>🚀 23 Days Java Training</h1>
+  <p><i>A daily journey solving Core Java & Algorithmic problems to improve coding skills.</i></p>
   
   <p>
     <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" alt="Language" />
@@ -19,13 +19,18 @@
 
   <br />
 
- 
+  <!-- GitHub Stats -->
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=codeXsidd&show_icons=true&theme=vibrant&count_private=true&hide_border=true" alt="codeXsidd's GitHub Stats" height="150" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeXsidd&layout=compact&theme=vibrant&hide_border=true" alt="Top Languages" height="150" />
+  </p>
+</div>
 
 ---
 
 ## 🎯 About The Repository
 
-This repository tracks my **23-Days Training** challenge. The primary goal is to log my consistency in solving algorithmic challenges. Day by day, I am implementing clean, efficient solutions to common problem-solving constraints, focusing heavily on core Data Structures and Algorithms.
+This repository tracks my **23-Days Java Training** challenge. The primary goal is to log my consistency in solving algorithmic challenges. Day by day, I am implementing clean, efficient solutions to common problem-solving constraints, focusing heavily on core Java as well as Data Structures and Algorithms.
 
 * **Language:** Java ☕
 * **Focus:** LeetCode-style Problems, Logical Reasoning, Time & Space Complexity Optimization
