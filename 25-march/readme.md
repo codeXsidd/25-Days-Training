@@ -22,7 +22,8 @@
 
 | Topic | File | Description |
 | :--- | :--- | :--- |
-| String Methods API | [String_Methods.txt](String_Methods.txt) | Comprehensive list of Java String instance methods and static functions. |
+| String Methods API | [String_Methods.txt](String_Methods.txt) | Comprehensive list of Java String instance methods with examples. |
+| Additional Tasks | [Tasks/](Tasks/) | Dedicated folder containing extra documentation and reference guides. |
 
 ---
 
