@@ -6,7 +6,7 @@ o/p=a
 
 */
 
-class Second_most {
+class Main {
     public char secondMostOccuring(String s) {
         int max=Integer.MIN_VALUE;
         int second_max=Integer.MIN_VALUE;
