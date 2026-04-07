@@ -13,8 +13,8 @@
 
   <!-- Progress Bar -->
   <div>
-    <strong>Training Progress (Day 7/23)</strong><br />
-    <img src="https://geps.dev/progress/30" alt="Progress Bar" />
+    <strong>Training Progress (Day 12/23)</strong><br />
+    <img src="https://geps.dev/progress/55" alt="Progress Bar" />
   </div>
  
 </div>
@@ -44,8 +44,14 @@ Here is a comprehensive breakdown of my daily problem-solving progress. Each fol
 | **Day 5** | 📁 [`24-march`](24-march/) | 12 Problems | ✅ |
 | **Day 6** | 📁 [`25-march`](25-march/) | 6 Problems | ✅ |
 | **Day 7** | 📁 [`26-march`](26-march/) | 8 Problems | ✅ |
+| **Day 8** | 📁 [`27-march`](27-march/) | 4 Problems | ✅ |
+| **Day 9** | 📁 [`30-march`](30-march/) | 1 Problem | ✅ |
+| **Day 10** | 📁 [`31-march`](31-march/) | 4 Problems | ✅ |
+| **Day 11** | 📁 [`1-april`](1-april/) | 3 Problems | ✅ |
+| **Day 12** | 📁 [`2-april`](2-april/) | 3 Problems | ✅ |
+| **Easter Holiday Task** | 📁 [`Oops_Project`](Oops_Project/) | 1 Problem | ✅ |
 
-> **Total Problems Solved: 57 ✨**
+> **Total Problems Solved: 73 ✨**
 
 ---
 
