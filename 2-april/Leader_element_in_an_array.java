@@ -6,40 +6,7 @@
   Time complexity:O(n)
   Space complexity:O(1)
   */
-
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		// your code goes here
-		int[] arr={16,17,3,4,5,2};
-		int n=arr.length;
-		int max=arr[n-1];
-		int track=n-1;
-		//int j=0;
-		//int[] res=new int[n];
-		//res[0]=max;
-		//j++;
-		for(int i=n-2;i>=0;i--){
-		    if(arr[i]>max){
-		        max=arr[i];
-		        track--;
-		        arr[track]=arr[i];
-		    }
-		}
-		for(int i=n-1;i>=track;i--)
-		System.out.print(arr[i]+"  ");
-
-	}
-}
-
-//------------------------------------------------------------------------------------------------
-
-//BruteFOrce 
+ 
 import java.util.*;
 public class Main {
     public static int[] leader(int[] arr) {
@@ -78,3 +45,76 @@ public class Main {
 // 6
 // 16 17 4 3 5 2
 // [17, 5, 2]
+
+//------------------------------------------------------------------------------------------------
+//USING RESULT ARRAY
+public class Main 
+{
+    public static void main(String[] args) 
+{
+        int[] arr={16,17,4,3,5,2};
+        int n=arr.length;
+        int max=arr[n-1];
+        int[] res=new int[n];
+        int ptr=0;
+        res[ptr++]=max;
+        for(int i=n-2;i>=0;i--){
+            if(arr[i]>max){
+                max=arr[i];
+                res[ptr++]=max;
+            }
+        }
+        for(int i=ptr-1;i>=0;i--)System.out.print(res[i]+" ");
+    }
+}
+
+
+//------------------------------------------------------------------------------------------------
+//USING RECURSION 
+
+public class Main 
+{
+    static int max;
+    static void findleaders(int[] arr,int i,int n){
+        if(i==n-1){
+max=arr[i];
+System.out.print(arr[i]+" ");
+return;
+}
+        findleaders(arr,i+1,n);
+        if(arr[i]>max){
+max=arr[i];
+System.out.print(arr[i]+" ");
+}}
+    public static void main(String[] args) 
+{
+        int[] arr={16,17,4,3,5,2};
+        findleaders(arr,0,arr.length);
+
+}}
+
+//------------------------------------------------------------------------------------------------
+//USING Shifting my leader to the end 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        int[] arr={16,17,4,3,5,2};
+        int n=arr.length;
+        int count=0;
+        for(int i=0;i<n-count;i++){
+            boolean isLeader=true;
+            for(int j=i+1;j<n-count;j++){
+                if(arr[i]<=arr[j]){isLeader=false;break;}
+            }
+            if(isLeader){
+                int temp=arr[i];
+                for(int k=i;k<n-count-1;k++) arr[k]=arr[k+1];
+                arr[n-count-1]=temp;
+                count++;
+                i--;
+            }
+        }
+        
+        for(int i=n-count;i<n;i++)System.out.print(arr[i]+" ");
+    }
+}
