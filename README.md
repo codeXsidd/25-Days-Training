@@ -4,8 +4,8 @@
   
   <p>
     <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" alt="Language" />
-    <img src="https://img.shields.io/badge/Problems%20Solved-57-blue?style=for-the-badge&logo=leetcode" alt="Problems Solved" />
-    <img src="https://img.shields.io/badge/Day-07%2F23-brightgreen?style=for-the-badge&logo=calendar" alt="Day Progress" />
+    <img src="https://img.shields.io/badge/Problems%20Solved-75-blue?style=for-the-badge&logo=leetcode" alt="Problems Solved" />
+    <img src="https://img.shields.io/badge/Day-14%2F23-brightgreen?style=for-the-badge&logo=calendar" alt="Day Progress" />
     <img src="https://img.shields.io/github/last-commit/codeXsidd/HOPE_Training_1?style=for-the-badge&logo=github" alt="Last Updated" />
   </p>
 
@@ -13,8 +13,8 @@
 
   <!-- Progress Bar -->
   <div>
-    <strong>Training Progress (Day 12/23)</strong><br />
-    <img src="https://geps.dev/progress/55" alt="Progress Bar" />
+    <strong>Training Progress (Day 14/23)</strong><br />
+    <img src="https://geps.dev/progress/61" alt="Progress Bar" />
   </div>
  
 </div>
@@ -50,8 +50,10 @@ Here is a comprehensive breakdown of my daily problem-solving progress. Each fol
 | **Day 11** | 📁 [`1-april`](1-april/) | 3 Problems | ✅ |
 | **Day 12** | 📁 [`2-april`](2-april/) | 3 Problems | ✅ |
 | **Easter Holiday Task** | 📁 [`Oops_Project`](Oops_Project/) | 1 Problem | ✅ |
+| **Day 13** | 📁 [`6-april`](6-april/) | 1 Problem | ✅ |
+| **Day 14** | 📁 [`7-april`](7-april/) | 1 Problem | ✅ |
 
-> **Total Problems Solved: 73 ✨**
+> **Total Problems Solved: 75 ✨**
 
 ---
 
