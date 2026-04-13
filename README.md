@@ -39,7 +39,7 @@ Here is a comprehensive breakdown of my daily problem-solving progress. Each fol
 | **Day 1** | 📁 [`16-march`](16-march/) | 2 Problems | ✅ |
 | **Day 2** | 📁 [`17-march`](17-march/) | 7 Problems | ✅ |
 | **Day 3** | 📁 [`18-march`](18-march/) | 5 Problems | ✅ |
-| **Holiday Task** | 📁 [`Holiday-Task`](Holiday-Task/) | 10 Problems | ✅ |
+| **Ramazan Holiday Task** | 📁 [`Holiday-Task`](Holiday-Task/) | 10 Problems | ✅ |
 | **Day 4** | 📁 [`23-march`](23-march/) | 7 Problems | ✅ |
 | **Day 5** | 📁 [`24-march`](24-march/) | 12 Problems | ✅ |
 | **Day 6** | 📁 [`25-march`](25-march/) | 6 Problems | ✅ |
@@ -55,7 +55,7 @@ Here is a comprehensive breakdown of my daily problem-solving progress. Each fol
 | **Day 15** | 📁 [`8-april`](8-april/) | 5 Problems | ✅ |
 | **Day 16** | 📁 [`9-april`](9-april/) | 4 Problems | ✅ |
 | **Day 17** | 📁 [`10-april`](10-april/) | 6 Problems | ✅ |
-| **Advanced OOPs** | 📁 [`Advanced_Oops_Project`](Advanced_Oops_Project/) | 1 Problem | ✅ |
+| **Tamil NewYear Holiday Task** | 📁 [`Advanced_Oops_Project`](Advanced_Oops_Project/) | 1 Problem | ✅ |
 
 > **Total Problems Solved: 91 ✨**
 
