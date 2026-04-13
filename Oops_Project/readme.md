@@ -1,4 +1,4 @@
-# 🚀 Final Project: Mini Social Media App
+# 🚀 Oops Project: Mini Social Media App
 
 ## 🎯 Focus: Consolidation of CORE Java & OOP Principles
 
