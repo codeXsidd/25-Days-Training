@@ -1,30 +1,45 @@
 # 🏧 Advanced OOPs Project: ATM Banking System
 
 ## 🎯 Overview
-A robust, console-based **ATM Banking System** designed to demonstrate advanced Object-Oriented Programming (OOP) principles in Java, including abstraction, interfaces, encapsulation, and exception handling.
+A robust, console-based **ATM Banking System** designed to demonstrate advanced Object-Oriented Programming (OOP) principles in Java. This project emphasizes modularity through the use of **Java Packages**, abstraction, interfaces, encapsulation, and exception handling.
+
+---
+
+## 📂 Project Structure & Packages
+
+The project has been refactored into a modular package-based structure:
+
+### `banking` Package
+- **[`ATM.java`](banking/ATM.java)**: Abstract base class defining the core blueprint.
+- **[`Printer.java`](banking/Printer.java)**: Interface for receipt printing functionality.
+- **[`Security_check.java`](banking/Security_check.java)**: Interface for authentication protocols.
+- **[`User.java`](banking/User.java)**: Encapsulates user data including account details and history.
+- **[`sidhATM.java`](banking/sidhATM.java)**: Concrete implementation of the ATM system.
+
+### Main Application
+- **[`ATM_Banking_System.java`](ATM_Banking_System.java)**: The entry point of the application that orchestrates the user interaction.
 
 ---
 
 ## 🏗️ Architecture & OOP Principles
 
-### 1. Abstraction (`abstract class ATM`)
-- Defines the core blueprint for any ATM implementation.
-- Contains abstract methods like `withdraw()`, `deposit()`, and `checkBalance()`.
+### 1. Abstraction
+- Uses `abstract class ATM` to define mandatory banking operations without specifying their implementation details.
 
-### 2. Interfaces (`Printer`, `Security_check`)
-- **Printer:** Ensures any ATM model can print transaction receipts.
-- **Security_check:** Enforces strict login validation protocols.
+### 2. Interfaces
+- **Printer & Security_check:** Demonstrate multiple inheritance of behavior, ensuring the system can print and validate security.
 
-### 3. Encapsulation (`User` class)
-- Correctly bundles account data (Account No, PIN, Balance, Transaction History) within a single unit.
+### 3. Encapsulation
+- The `User` class bundles account information and transaction history, protecting data integrity.
 
 ### 4. Inheritance
-- `sidhATM` extends the base `ATM` class and implements multiple interfaces to provide a concrete, feature-rich banking experience.
+- `sidhATM` extends the base `ATM` class and implements multiple interfaces to provide a complete banking experience.
 
 ---
 
 ## 🚀 Key Features
 
+* 📦 **Modular Design**: Organized into packages for better maintainability and scalability.
 * 🔐 **Secure Login**: 3-attempt limit for account security.
 * 💰 **Transaction Management**: Support for deposits and withdrawals with real-time balance updates.
 * 📜 **Mini Statement**: View transaction history via the `Print Receipt` feature.
@@ -32,11 +47,17 @@ A robust, console-based **ATM Banking System** designed to demonstrate advanced 
 
 ---
 
-## 🛠️ Implementation
+## 🛠️ How to Run
 
-### File: [ATM_Banking_System.java](ATM_Banking_System.java)
-- **Primary Logic:** Handles multi-user support using `HashMap`.
-- **User Experience:** interactive console menu for seamless navigation.
+1. **Compile the project:**
+   ```bash
+   javac ATM_Banking_System.java banking/*.java
+   ```
+
+2. **Run the application:**
+   ```bash
+   java ATM_Banking_System
+   ```
 
 ---
 
