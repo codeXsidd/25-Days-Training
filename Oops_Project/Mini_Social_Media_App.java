@@ -90,7 +90,7 @@ class Post {
 }
 
 // Main class starts here
-public class Main {
+public class Mini_Social_Media_App {
 
     public static void main(String[] args) {
 
