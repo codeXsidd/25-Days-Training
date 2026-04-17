@@ -1,19 +1,18 @@
 import java.io.File;
-import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.IOException;
+public class File_Reader{
+    public static void main(String[] args) throws IOException{
+            
+            FileReader f=new FileReader("Sample2.txt");
+            // int ch=f.read();
+            // System.out.print((char)ch);
+            // only one character at a time
 
-public class Main{
-  public static void main(String[] args){
-    //First
-    File f=new File("testing.txt");
-    f.createNewFile();
-    FileWriter fw=new FileWriter(f);
-
-    //Second
-    FileWriter fw=new FileWriter("testing.txt");
-    fw.write("Hello");
-    fw.close();
-
-    //Third
-     FileWriter fw=new FileWriter("testing.txt"); //Automatically new file created if it doesn't exist
-  }
+            int ch;
+            while((ch=f.read())!=-1){
+                System.out.print((char)ch);
+            }
+            
+    }
 }
